@@ -37,7 +37,7 @@ __Junior Programmer__
 > * developing technical documentation (specifications, test scenario/test cases, test log)
 
 
-__Junior Programmer__
+__Department of standardization, specialist__
 >Full-time\
 >Aug 2017 – Mar 2019 (1 yr 8 mo)\
 >Minsk, Belarus
