@@ -68,4 +68,17 @@ __Specialist__
 >Russian (native)\
 >English (B1)
 
-
+## SAMPLE CODE
+```
+function show_data_sort() {
+      if (abc_sort_open) {
+            $(".abc_sort").slideToggle('fast');
+            abc_sort_open = false;
+      }
+      $(".data_sort").slideToggle('fast');
+      if (data_sort_open) {
+            data_sort_open = false;
+            return;
+      }
+      data_sort_open = true;
+}
