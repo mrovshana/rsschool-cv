@@ -48,7 +48,7 @@ __Department of standardization, specialist__
 
 ## EDUCATION
 #### Polessky State University
->Bachelor's degree, Information systems and technology\
+>Bachelor's degree, Information systems and technology\ 
 >2013-2017
 #### Underground Language Club
 >B1, General English\
