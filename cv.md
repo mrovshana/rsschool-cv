@@ -2,7 +2,7 @@
 
 ______________________
 I'm a Junior Software Test Engineer with over 3 years experience in IT and Banking.\
-Want to became an frontend developer, because  I have an analytical mindset and technical education and at the same time I love creativity.\
+Want to became a frontend developer, because  I have an analytical mindset and technical education and at the same time I love creativity.\
 In a free time I draw (in general people faces by pencile), learn to play piano and ukulele and dance becide a mirror.\
 I like learning something new, being a part of team and see results of efforts!
 _______________________
@@ -48,7 +48,7 @@ __Department of standardization, specialist__
 
 ## EDUCATION
 #### Polessky State University
->Bachelor's degree, Information systems and technology\ 
+>Bachelor's degree, Information systems and technology\
 >2013-2017
 #### Underground Language Club
 >B1, General English\
