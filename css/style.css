@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;    
+    color: rgb(0, 43, 25);
+}
+
+.header{
+    max-width: 100%;
+    min-width: 400px;
+    background: url('../img/1.jpg') center no-repeat;
+    background-size: cover;
+    margin-bottom: calc(10px + 3vw);
+    text-align: center;
+}
+
+.wrap{
+    max-width: 1170px;
+    width: 50%;
+    padding: 50px 15px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.header_wrap{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.header_photo{
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.headT1{
+    font-size: calc(1em + 1vw);
+    font-weight: 200;
+    font-style: italic;
+    margin-bottom: 2%;
+    color: white;
+}
+
+.headT2{
+    font-size: calc(1em + 1vw);
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.about-me{
+    width: 49%;
+    padding: 0 15px;
+    margin: 0 auto;
+    margin-bottom: calc(10px + 3vw);
+}
+
+.title_box{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.title{
+    width: 50%;
+    font-size: calc(1em + 1vw);
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgb(0, 43, 25);
+    margin-bottom: 3%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid rgb(0, 43, 25);
+}
+
+.about-me_content{
+    font-size: calc(0.8em + 0.5vw);
+    font-weight: 400;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+
+._skills{
+    width: 65%;
+    padding: 0 15px;
+    margin: 0 auto;
+    margin-bottom: calc(10px + 3vw);
+}
+.skills{
+    width: calc(40% - 2px);
+    padding: 0 15px;
+}
+.skills-cont{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 990px){
+.skills-left{
+    margin-bottom: 32px;
+    text-align: left;
+}}
+
+@media screen and (max-width: 990px){
+.skills-left .skill-capacity {
+    right: auto;
+    left: 3px;
+}}
+
+.skills-left .skill-capacity {
+    background: #353236;
+    left: auto;
+    right: 0px;
+}
+
+.skills-left {
+    text-align: right;
+}
+
+.skills-ul li {
+    margin-bottom: 16px;
+}
+
+.skills-left .skill-bar-holder {
+    background: rgba(47, 41, 51, 0.3);
+}
+
+.skill-bar-holder {
+    height: 12px;
+    width: 100%;
+    background: rgba(150, 172, 177, 0.4);
+    padding: 0px;
+    position: relative;
+    margin: 10px 0;
+    
+}
+
+.skill-capacity {
+    height: 12px;
+    background: #2b503f;
+    padding: 0px !important;
+    left: 0px;
+    position: absolute;
+    width: 50%;
+}
+
+.rus{
+    width: 100%;
+}
+
+h3 {
+    font-size: calc(0.5em + 1vw) !important;
+    font-weight: 400 !important;
+    letter-spacing: 3px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.last{
+    margin-bottom: 0 !important;
+}
+
+
+.experience{
+    width: 75%;
+    padding: 15px;
+    margin: 0 auto;
+    margin-bottom: calc(10px + 3vw);
+    background: rgba(150, 172, 177, 0.2);
+}
+
+.exp{
+    display: flex;
+    flex-direction: column;
+    font-size: calc(0.8em + 0.5vw);
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+
+.exp-cont{
+    width: 100%;
+    display: inline-flex;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+}
+
+.exp-title{
+    width: 40%;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.middle{
+    position: absolute;
+    left: 50%;
+    width: 60px;
+    margin-left: -30px;
+    text-align: center;
+    height: 100%;
+}
+
+.vertical-line{
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    display: inline-block;
+    background: rgb(0, 43, 25);
+    left: 40%;
+    margin-left: -2px;
+}
+
+.exp-content{
+    width: 60%;
+    text-align: left;
+    padding-left: 20px;
+    font-style: italic;
+}
+
+span{
+    font-size: calc(0.3em + 1vw) !important;
+    font-weight: 300 !important;
+    letter-spacing: 2px !important;
+}
+ a{
+    text-decoration: none;
+    color: rgb(0, 43, 25);
+ }
+ .educayion{
+    width: 60%;
+    padding: 0 15px;
+    margin: 0 auto;
+    margin-bottom: calc(10px + 3vw);
+}
+ .ed-title{
+    width: 50%;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.vertical-line-ed{
+    left: 50%;
+
+}
+
+.ed-content{
+    width: 50%;
+    text-align: left;
+    padding-left: 20px;
+    font-style: italic;
+}
+
+.ed-cont{
+    padding-bottom: 16px;
+}
+
+footer{
+    background: rgb(150, 172, 177);
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    padding: 45px 0;
+    font-size: calc(0.5em + 0.8vw);
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+
+.footer{
+    width: 60%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.copyright{
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    font-size: calc(0.8em + 0.5vw);
+    text-align: center;
+    padding: 15px 0;
+}
+
+.icons{
+    opacity: 0.8;
+}
+
+.icons img{
+    padding: 0 15px;
+    height: 45px;
+}
